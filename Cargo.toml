@@ -1,0 +1,12 @@
+[package]
+name = "ledmatrix"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rppal = "0.22.1"
+image = "0.25.5"
+
+
+[profile.dev]
+opt-level = 3
